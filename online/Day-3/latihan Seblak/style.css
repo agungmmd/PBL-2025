@@ -1,0 +1,118 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #fdf3e7;
+}
+
+.nav {
+    background-color: #e14b1d;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    width: 100%;
+    top: 0;
+    height: 70px;
+    position: sticky;
+    justify-content: space-between;
+}
+
+.nav .logo img{
+    width: 200px;
+    align-items: center;
+    padding: 15px;
+    margin-top: 0px;
+}
+
+.logo {
+    margin: 0;
+    padding: 20px;
+    font-size: 24px;
+    align-items: center;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    padding-right: 15px;
+    font-weight: bold;
+}
+
+.nav-menu a:hover {
+    text-decoration: underline;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffe0b3;
+    padding: 15px;
+    width: 100%
+}
+
+.header-text {
+    text-align: center;
+    margin: 10px;
+}
+
+.header-text h2 {
+    color: #e14b1d;
+    font-size: 28px;
+}
+
+.header-text p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.gambar-seblak {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.menu-favorit {
+    text-align: center;
+    padding: 30px;
+}
+
+.menu-favorit h2 {
+    color: #e14b1d;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-item {
+    background-color: #fff;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.menu-item h3 {
+    color: #e14b1d;
+}
+
+.tentang {
+    background-color: #ffe0b3;
+    text-align: center;
+    padding: 30px;
+}
+
+.kontak {
+    background-color: #e14b1d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
