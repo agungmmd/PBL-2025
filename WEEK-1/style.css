@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: lightgrey;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nav {
+    display: flex;
+    background-color: rgb(0, 0, 196);
+    width: 100%;
+    align-items: center;
+    padding: 15px 10%;
+    justify-content: space-between;
+    position: fixed;
+    font-family: Open sans, sans-serif;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav ul li {
+    display: inline;
+    margin: 15px;
+    justify-content: center;
+}
+
+.nav ul li a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+    height: 72vh;
+}
+
+.hero .judul-hero h1{
+    font-size: 36px;
+    font-family: Poppins, sans-serif;
+}
+
+.hero .judul-hero h3{
+    font-size: 22px;
+    font-family: Poppins, sans-serif;
+}
+
+.hero .judul-hero h3::before{
+    content: "";
+    display: inline-block;
+    width: 40px;
+    height: 3px;
+    background: rgb(0, 0, 196);
+    vertical-align: middle;
+    margin-right: 10px;
+    position: relative;
+}
+
+.hero .judul-hero h1 span{
+    color: rgb(0, 0, 196);
+    font-style: italic;
+}
+
+.hero .judul-hero h4{
+    font-size: 14px;
+    font-family: Poppins, sans-serif;
+}
+
+.hero .judul-hero img{
+    width: 50.4vh;
+    height: auto;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    gap: 110px;
+    justify-content: space-between;
+    font-family: Poppins, sans-serif;
+}
+
+.hero .judul-hero .box .box1{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Poppins, sans-serif;
+}
+
+.hero .judul-hero .box .box2{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Poppins, sans-serif;
+}
+
+.decor {
+    background-color: rgb(0, 0, 196);
+    height: 40px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Open sans, sans-serif;
+}
+
+.decor ul {
+    list-style: none;
+}
+
+.decor ul li {
+    display: inline;
+    margin: 30px;
+}
+
+.project {
+    background-color: white;
+    height: 70vh;
+}
+
+.project .subjudul-project h3{
+    padding: 25px;
+    font-family: poppins, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    height: 20px;
+}
+
+.project .subjudul-project h3::before{
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 3px;
+    background: rgb(0, 0, 196);
+    vertical-align: middle;
+    margin-right: 5px;
+    position: relative;
+}
+
+.project .judul-project {
+    display: flex;
+    padding-left: 25px;
+    font-size: 16px;
+    font-family: poppins, sans-serif;
+}
+
+.project .judul-project h2 strong{
+    color: rgb(0, 0, 196);
+}
+
+.project .container {
+    padding: 30px;
+    font-size: small;
+    align-items: center;
+    font-family: poppins, sans-serif;
+}
+
+.project .container .container1 {
+    background-color: lightgray;
+    border-radius: 15px;
+    height: 50px;
+    margin: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+}
+
+.project .container .container1 h2 {
+    margin: 15px;
+}
+
+.project .container .container2 {
+    background-color: lightgray;
+    border-radius: 15px;
+    height: 50px;
+    margin: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+}
+
+.project .container .container2 h2 {
+    margin: 15px;
+}
+
+.project .container .container3 {
+    background-color: lightgray;
+    border-radius: 15px;
+    height: 50px;
+    margin: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+}
+
+.project .container .container3 h2 {
+    margin: 15px;
+}
+
+.project .container .container4 {
+    background-color: lightgray;
+    border-radius: 15px;
+    height: 50px;
+    margin: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+}
+
+.project .container .container4 h2 {
+    margin: 15px;
+}
+
+.project .footer {
+    color: rgb(0, 0, 196);
+    height: 10vh;
+    text-align: center;
+    font-weight: bold;
+    font-family: poppins, sans-serif;
+}
+
+.about {
+    background-color: lightgray;
+    height: 50vh;
+    margin-top: 50px;
+}
+
+.about .subjudul-about h3{
+    padding: 25px;
+    font-family: poppins, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    height: 20px;
+    text-align: center;
+}
+
+.about .subjudul-about h3::before{
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 3px;
+    background: rgb(0, 0, 196);
+    vertical-align: middle;
+    margin-right: 5px;
+    position: relative;
+}
+
+.about .judul-about {
+    padding: 15x;
+    font-family: poppins, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.about .judul-about span {
+    font-style: italic;
+    color: rgb(0, 0, 196);
+}
+
+.about .teks-about {
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+    font-family: poppins, sans-serif;
+    font-size: 12px;
+}
+
+.contact {
+    background-color: lightgray;
+    height: 60vh;
+}
+
+.contact .subjudul-contact h3{
+    padding: 25px;
+    font-family: poppins, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    height: 20px;
+    text-align: center;
+}
+
+.contact .subjudul-contact h3::before{
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 3px;
+    background: rgb(0, 0, 196);
+    vertical-align: middle;
+    margin-right: 5px;
+    position: relative;
+}
+
+.contact .judul-contact {
+    padding: 15x;
+    font-family: poppins, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.contact .judul-contact span {
+    font-style: italic;
+    color: rgb(0, 0, 196);
+}
+
+.contact .teks-contact {
+    padding: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.contact .icon{
+    text-align: center;
+}
+
+ion-icon {
+    color: rgb(0, 0, 196);
+    font-size: 36px;
+}
+
+.contact .footer {
+    color: rgb(0, 0, 196);
+    height: 10vh;
+    padding: 10vh;
+    text-align: center;
+    font-weight: bold;
+    font-family: poppins, sans-serif;
+}
